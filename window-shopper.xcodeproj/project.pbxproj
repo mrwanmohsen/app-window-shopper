@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30F6B0222086160007652FA /* wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30F6B0122086160007652FA /* wage.swift */; };
+		A30F6B0422086466007652FA /* wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30F6B0122086160007652FA /* wage.swift */; };
 		A35670002207270300C6384A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3566FFF2207270300C6384A /* AppDelegate.swift */; };
 		A35670022207270300C6384A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35670012207270300C6384A /* MainVC.swift */; };
 		A35670052207270300C6384A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35670032207270300C6384A /* Main.storyboard */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A30F6B0122086160007652FA /* wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wage.swift; sourceTree = "<group>"; };
 		A3566FFC2207270300C6384A /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3566FFF2207270300C6384A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A35670012207270300C6384A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -76,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A30F6B0022086120007652FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A30F6B0122086160007652FA /* wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A3566FF32207270300C6384A = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +110,7 @@
 		A3566FFE2207270300C6384A /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				A30F6B0022086120007652FA /* Model */,
 				A356702F22073C8000C6384A /* Views */,
 				A356702E2207374A00C6384A /* Controller */,
 				A3566FFF2207270300C6384A /* AppDelegate.swift */,
@@ -279,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A356703122073CF400C6384A /* CurrencyTextField.swift in Sources */,
+				A30F6B0222086160007652FA /* wage.swift in Sources */,
 				A35670022207270300C6384A /* MainVC.swift in Sources */,
 				A35670002207270300C6384A /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A35670202207270300C6384A /* window_shopperUITests.swift in Sources */,
+				A30F6B0422086466007652FA /* wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T248F27MUJ;
 				INFOPLIST_FILE = "window-shopper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "devslope.window-shopper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T248F27MUJ;
 				INFOPLIST_FILE = "window-shopper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "devslope.window-shopper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
